@@ -1,0 +1,27 @@
+#custom3dButton {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-family: sans-serif;
+  font-size: 16px;
+  box-shadow: 0px 4px 0px white;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.1s ease-in-out;
+  outline: none;
+}
+
+#custom3dButton:hover {
+  background-color: #111111;
+  box-shadow: 0px 2px 0px white;
+  transform: translateY(2px);
+}
+
+#custom3dButton:active {
+  background-color: white;
+  color: black;
+  box-shadow: inset 0px 4px 0px black;
+  transform: translateY(4px);
+}
